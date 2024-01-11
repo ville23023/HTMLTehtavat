@@ -61,7 +61,8 @@ section{
 footer{
     color: aliceblue;
     background-color: black;
-    padding: 1em;
+    padding: 20px;
+    text-align: center;
 }
 .h2spe{
     background-color: blue;
