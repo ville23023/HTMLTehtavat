@@ -99,7 +99,8 @@
   <body>
     <header>
       <h1>Mozilla</h1>
-      <img src="../images/firefox_logo120.png">
+      <img src="../images/firefox_logo120.png"
+            alt="Firefox logo">
       <!-- insert <img> element, link to the small
           version of the Firefox logo -->
     </header>
@@ -120,19 +121,31 @@
       <div class="further-info">
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img src="../images/firefox_logo120.png"
+          <img srcset="../images/firefox_logo120.png 120w,
+                      ../images/firefox_logo400.png 400w"
+               sizes="(max-width: 500px) 120px, 400px"
+               src="../images/firefox_logo400.png"
                alt="Link to Mozilla Firefox homepage">
         </a>
         <a href="https://www.mozilla.org/">
-          <img src="../images/mozilla-dinosaur120.png"
+          <img srcset="../images/mozilla-dinosaur120.png 120w,
+                      ../images/mozilla-dinosaur400.png 400w"
+               sizes="(max-width: 500px) 120px, 400px"
+               src="../images/mozilla-dinosaur400.png"
                alt="Link to Mozilla homepage">
         </a>
         <a href="https://addons.mozilla.org/">
-          <img src="../images/firefox-addons120.jpg"
+          <img srcset="../images/firefox-addons120.jpg 120w,
+                       ../images/firefox-addons400.jpg 400w"
+               sizes="(max-width= 500px) 120px, 400px" 
+               src="../images/firefox-addons400.jpg"
                alt="Link to Mozilla firefox addons">
         </a>
         <a href="https://developer.mozilla.org/en-US/"> 
-          <img src="../images/mdn120px.png"
+          <img srcset="../images/mdn120px.png 120w,
+                      ../images/mdn400px.png 400w"
+               sizes="(max-width: 500px) 120px, 400px"
+               src="../images/mdn400px.png"
                alt="Link to Mozilla developer homepage">
         </a>
         <div class="clearfix"></div>
@@ -141,8 +154,9 @@
       <div class="red-panda">
         <!-- insert picture element -->
         <picture>
-          <source media="max-width 600px" srcset="/images/red-panda600.jpg">
-          <source media="min-width 1200px" srcset="/images/red-panda1200.jpg">
+          <source media="(max-width 600px)" srcset="red-panda600.jpg">
+          <source media="(min-width 1200px)" srcset="red-panda1200.jpg">
+          <img src="../images/red-panda1200.jpg">
         </picture>
       </div>
     </main>
