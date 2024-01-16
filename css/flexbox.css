@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    border: 1rem solid;
+}
+header{
+    text-align: center;
+    background-color: purple;
+}
+h1{
+    color: aliceblue;
+}
+
+main {
+    display: flex;
+    background-color: aliceblue;
+}
+.inner-flex{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    flex-shrink: 1;
+    
+}
+section{
+    margin-top: 10px;
+}
+article{
+    background-color: aqua;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+footer{
+    text-align: center;
+    background-color: purple;
+}
+
+.outer-flex{
+    flex-basis: 200px;
+    background-color: aliceblue;
+}
+nav{
+    margin: 20px;
+    font-size: 5;
+}
+li{
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+    list-style: none;
+}
+
