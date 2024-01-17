@@ -4,6 +4,7 @@ body{
     font-size: 14px;
     margin: 1em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
 }
 header{
     color: antiquewhite;
@@ -13,9 +14,15 @@ header{
     padding: 1em;
 }
 
+nav li{
+    margin: 5px;
+}
+ul li{
+    margin: 5px;
+}
+
 nav{
     background-color: beige;
-    padding: 0.7em;
     color: black;
 }
 nav ul{

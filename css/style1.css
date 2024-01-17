@@ -38,7 +38,8 @@ margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.5;
 }
-#sidebar{
+#sidebar li{
+    margin: 5px;
 
 
 }

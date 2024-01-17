@@ -1,0 +1,56 @@
+body{
+    margin: 0 auto;
+    max-width: 80;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.scontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.item{
+    flex: 200px;
+    padding: 20px;
+    border: 1px solid #333;
+    background-color: bisque;
+    color: azure;
+}
+
+.itemBig{
+    flex: 2;
+    padding: 20px;
+    border: 1px solid #333;
+    margin: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    
+}   
+
+.item1{
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #333;
+    background-color: blue;
+}
+nav ul li{
+    display: inline;
+    font-size: 25px;
+
+}
+
+header, footer, nav{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    color: white;
+}
