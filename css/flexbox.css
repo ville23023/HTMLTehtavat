@@ -6,7 +6,7 @@ body{
 }
 header{
     text-align: center;
-    background-color: purple;
+    background-color: rgb(204, 17, 204);
 }
 h1{
     color: aliceblue;
@@ -34,7 +34,7 @@ article{
 }
 footer{
     text-align: center;
-    background-color: purple;
+    background-color: rgb(204, 17, 204);
 }
 
 .outer-flex{
@@ -51,4 +51,13 @@ li{
     padding: 10px;
     list-style: none;
 }
+ 
+table{
+    border: solid 5px;
+ }
+
+ form{
+    border: 5px solid gray;
+    padding: 1em;
+ }
 
